@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+
+import shopData from "./assets/shopData.json";
+
+import FilterType from "./components/FilterType";
+import FilterBrand from "./components/FilterBrand";
+import FilterCost from "./components/FilterCost";
+import Sort from "./components/Sort";
+import Shop from "./components/Shop";
+import Cart from "./components/Cart";
 
 function App() {
+  const [options, setOptions] = useState([]);
+  const [shop, setShop] = useState(shopData);
+  const [cart, setCart] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div id="app">
+      <h1>Tech, Guitars, and Cake</h1>
+      <div className="split">
+        <button
+          onClick={() => {
+            setShop(shopData);
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          Reset
+        </button>
+        <FilterType shop={shop} setShop={setShop} />
+        <FilterBrand shop={shop} setShop={setShop} />
+        <FilterCost
+          shop={shop}
+          setShop={setShop}
+        />
+        <Sort shop={shop} setShop={setShop} />
+      </div>
+      <div className="split">
+        <div className="shopDiv">
+          <Shop shop={shop} cart={cart} setCart={setCart} />
+        </div>
+        <div className="cartDiv">
+          <Cart cart={cart} setCart={setCart} />
+        </div>
+      </div>
     </div>
   );
 }

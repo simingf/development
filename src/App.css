@@ -1,38 +1,36 @@
-.App {
+#app {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-align: center;
+  color: #2c3e50;
+  margin: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.split {
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.optionList {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.shopDiv {
+  flex: 3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cartDiv {
+  flex: 1;
+}
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
 }

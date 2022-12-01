@@ -1,0 +1,80 @@
+[
+  {
+    "name": "iPhone",
+    "brand": "Apple",
+    "type": "Electronics",
+    "price": 999
+  },
+  {
+    "name": "iPad",
+    "brand": "Apple",
+    "type": "Electronics",
+    "price": 1299
+  },
+  {
+    "name": "AirPods",
+    "brand": "Apple",
+    "type": "Electronics",
+    "price": 149
+  },
+  {
+    "name": "Pixel Phone",
+    "brand": "Google",
+    "type": "Electronics",
+    "price": 799
+  },
+  {
+    "name": "Pixel Buds",
+    "brand": "Google",
+    "type": "Electronics",
+    "price": 149
+  },
+  {
+    "name": "Les Paul",
+    "brand": "Gibson",
+    "type": "Guitars",
+    "price": 699
+  },
+  {
+    "name": "SG",
+    "brand": "Gibson",
+    "type": "Guitars",
+    "price": 499
+  },
+  {
+    "name": "Stratocaster",
+    "brand": "Fender",
+    "type": "Guitars",
+    "price": 359
+  },
+  {
+    "name": "Jazzmaster",
+    "brand": "Fender",
+    "type": "Guitars",
+    "price": 459
+  },
+  {
+    "name": "Chocolate Raspberry Cake",
+    "brand": "Ellies",
+    "type": "Cakes",
+    "price": 40
+  },
+  {
+    "name": "Apple Chai Cake",
+    "brand": "Ellies",
+    "type": "Cakes",
+    "price": 30
+  },
+  {
+    "name": "Bundt Cake",
+    "brand": "Nothing Cakes",
+    "type": "Cakes",
+    "price": 15
+  },
+  {
+    "name": "Bundtlet",
+    "brand": "Nothing Cakes",
+    "type": "Cakes",
+    "price": 5
+  }
+]
