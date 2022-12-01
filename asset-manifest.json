@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/development/static/css/main.073c9b0a.css",
-    "main.js": "/development/static/js/main.ff62614a.js",
-    "static/media/logo.svg": "/development/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/development/static/css/main.8afaf081.css",
+    "main.js": "/development/static/js/main.999ee0d3.js",
+    "static/media/Les Paul.jpg": "/development/static/media/Les Paul.ec44afbb7fb4b8577a9e.jpg",
+    "static/media/Bundtlet.jpg": "/development/static/media/Bundtlet.99cf6f9748d0e7fcdf2a.jpg",
+    "static/media/Apple Chai Cake.jpg": "/development/static/media/Apple Chai Cake.874357d66fc0c1c5b620.jpg",
+    "static/media/Jazzmaster.jpg": "/development/static/media/Jazzmaster.632a82796a9a57ccae17.jpg",
+    "static/media/iPad.jpg": "/development/static/media/iPad.989b7a3f7d338e91d415.jpg",
+    "static/media/Bundt Cake.jpg": "/development/static/media/Bundt Cake.375f72d1ab205ed2b777.jpg",
+    "static/media/Chocolate Raspberry Cake.jpg": "/development/static/media/Chocolate Raspberry Cake.d4dd40a894680e65b249.jpg",
+    "static/media/Pixel Buds.jpg": "/development/static/media/Pixel Buds.d62914ddfb9a0d972c43.jpg",
+    "static/media/Stratocaster.jpg": "/development/static/media/Stratocaster.e0cafcf71cfbad885f65.jpg",
+    "static/media/SG.jpg": "/development/static/media/SG.db69aabd7c46e888b2ea.jpg",
+    "static/media/iPhone.jpg": "/development/static/media/iPhone.eb700b09ab093939066f.jpg",
     "index.html": "/development/index.html",
-    "main.073c9b0a.css.map": "/development/static/css/main.073c9b0a.css.map",
-    "main.ff62614a.js.map": "/development/static/js/main.ff62614a.js.map"
+    "main.8afaf081.css.map": "/development/static/css/main.8afaf081.css.map",
+    "main.999ee0d3.js.map": "/development/static/js/main.999ee0d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ff62614a.js"
+    "static/css/main.8afaf081.css",
+    "static/js/main.999ee0d3.js"
   ]
 }
