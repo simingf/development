@@ -32,10 +32,15 @@ export default function Cart({ cart, setCart }) {
   return (
     <div className="cart">
       <h2>Cart</h2>
+      <button onClick={() => {
+        setCart({});
+      }}>
+        Clear Entire Cart
+      </button>
       <ul>
         {Object.keys(cart).map((itemName) => (
           <li key={itemName}>
-            {cart[itemName].count} x {itemName}
+            {cart[itemName].count} x {itemName} (${cart[itemName].price}) = ${cart[itemName].count * cart[itemName].price}
             <br />
             <button
               onClick={() => {

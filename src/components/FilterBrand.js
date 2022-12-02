@@ -1,52 +1,52 @@
-function filter(shop, setShop, brand) {
-  const newShop = shop.filter((item) => {
-    return item.brand === brand;
-  });
-  setShop(newShop);
-}
-
-export default function FilterBrand({ shop, setShop }) {
+export default function FilterBrand({ setBrand }) {
   return (
     <div className="optionList">
       <p>Filter by Brand:</p>
       <button
         onClick={() => {
-          filter(shop, setShop, "Apple");
+          setBrand("All");
+        }}
+      >
+        All Brands
+      </button>
+      <button
+        onClick={() => {
+          setBrand("Apple");
         }}
       >
         Apple
       </button>
       <button
         onClick={() => {
-          filter(shop, setShop, "Google");
+          setBrand("Google");
         }}
       >
         Google
       </button>
       <button
         onClick={() => {
-          filter(shop, setShop, "Gibson");
+          setBrand("Gibson");
         }}
       >
         Gibson
       </button>
       <button
         onClick={() => {
-          filter(shop, setShop, "Fender");
+          setBrand("Fender");
         }}
       >
         Fender
       </button>
       <button
         onClick={() => {
-          filter(shop, setShop, "Ellies");
+          setBrand("Ellies");
         }}
       >
         Ellies
       </button>
       <button
         onClick={() => {
-          filter(shop, setShop, "Nothing Cakes");
+          setBrand("Nothing Cakes");
         }}
       >
         Nothing Cakes
