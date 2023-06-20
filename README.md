@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-https://coldfish777.github.io/development/
+https://simingf.github.io/development/
 
 ### Goal and Value of the Application
 This site's goal is to allow users to buy technology, guitars, or cakes. The value of the application is that it is perfect for Tech Geek Dessert Loving Guitarists.
